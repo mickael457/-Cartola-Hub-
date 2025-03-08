@@ -24,7 +24,7 @@ UIStroke.Color = Color3.fromRGB(150, 0, 255) -- Roxo
 
 -- Configuração do Texto de Boas-Vindas
 WelcomeText.Parent = Frame
-WelcomeText.Text = "Bem vindo ao Cartola Hub!"
+WelcomeText.Text = "🎩Bem vindo ao Cartola Hub🎩"
 WelcomeText.Size = UDim2.new(1, 0, 1, 0)
 WelcomeText.TextColor3 = Color3.fromRGB(255, 255, 255) -- Letras Brancas
 WelcomeText.BackgroundTransparency = 1
@@ -37,7 +37,7 @@ WelcomeText:Destroy()
 
 -- Configuração do Texto de Escolha de Versão
 VersionText.Parent = Frame
-VersionText.Text = "Qual versão deseja usar? (Portugues Em reforma)"
+VersionText.Text = "Qual versão deseja usar? (Portugues)"
 VersionText.Size = UDim2.new(1, 0, 0.3, 0)
 VersionText.Position = UDim2.new(0, 0, 0.1, 0)
 VersionText.TextColor3 = Color3.fromRGB(255, 255, 255) -- Letras Brancas
@@ -47,7 +47,7 @@ VersionText.TextScaled = true
 
 -- Configuração do Botão Português 🇧🇷
 PortugueseButton.Parent = Frame
-PortugueseButton.Text = "🇧🇷 Português em reforma"
+PortugueseButton.Text = "🇧🇷 Português-Brasil"
 PortugueseButton.Size = UDim2.new(0.45, 0, 0.3, 0)
 PortugueseButton.Position = UDim2.new(0.05, 0, 0.6, 0)
 PortugueseButton.BackgroundColor3 = Color3.fromRGB(0, 150, 0)
